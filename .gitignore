@@ -1,0 +1,27 @@
+# Maven & Build
+target/
+.maven/
+*.class
+
+# Database files
+roommate-backend/data/
+*.mv.db
+*.trace.db
+
+# Node.js & Frontend build
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
